@@ -34,7 +34,32 @@ Additionally, enable the service to start on boot:
    - sudo apt install mariadb-server
    - sudo systemctl start mariadb
    - sudo systemctl enable mariadb
-   Now you need to instal template of tables that i use:
+     
+   Now you need to instal template of tables that I use:
+
+   CREATE TABLE IF NOT EXISTS users (
+    username VARCHAR(255),
+    gained_access TIMESTAMP ,
+    current_pass VARCHAR(255),
+    chat_id VARCHAR(255),
+    number_of_configs INT
+);
+
+   CREATE TABLE IF NOT EXISTS configs_dates (
+    username VARCHAR(255),
+    config_1 DATETIME,
+    config_2 DATETIME,
+    config_3 DATETIME,
+    config_4 DATETIME,
+    chat_id INT
+);
+
+6. Update file "mariadb_conn.py" with your data.
+7. Update "admin_commads.py" with your admin nickname.
+
+
+## Usage
+
      
 
 
