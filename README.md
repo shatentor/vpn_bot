@@ -59,9 +59,5 @@ Additionally, enable the service to start on boot:
 
 
 ## Usage
-
-     
-
-
-    
-  
+There are two types of users in bot: admin and other users.
+Admin can ![do this commands](https://drive.google.com/file/d/13FQLFD-mTLCYMhJuE7pBaaz5h02Zjoxi/view?usp=drivesdk) 
