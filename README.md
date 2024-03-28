@@ -1,5 +1,5 @@
 
-## Telegram bot for managing PiVPN WireGuard clients.
+# Telegram bot for managing PiVPN WireGuard clients.
 
 ## Description 
 Allows you to get your own VPN service! 
