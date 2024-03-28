@@ -7,11 +7,11 @@ from aiogram.utils.exceptions import MessageTextIsEmpty
 from aiogram import Bot, Dispatcher, types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
-from keyboard import admin_keyboard
+from main_stucture.keyboard import admin_keyboard
 from data_base.redis_conn import storage
-from generate_send_qr import send_all_qr_codes_and_configs
+from main_stucture.generate_send_qr import send_all_qr_codes_and_configs
 from admin.config import token
-from class_user import User
+from main_stucture.class_user import User
 
 
 bot = Bot(token=token)

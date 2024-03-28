@@ -4,7 +4,7 @@ import subprocess
 from aiogram import Bot, Dispatcher, types
 import os
 
-from class_user import User
+from main_stucture.class_user import User
 from admin import config
 
 # Set the log level for debugging.

@@ -5,9 +5,9 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import Bot, Dispatcher, types
 from data_base.redis_conn import storage
-from pass_for_user import generate_password
-from class_user import User
-from generate_send_qr import generate_wg_config, send_all_qr_codes_and_configs, send_last_qr_code_and_config
+from main_stucture.pass_for_user import generate_password
+from main_stucture.class_user import User
+from main_stucture.generate_send_qr import generate_wg_config, send_all_qr_codes_and_configs, send_last_qr_code_and_config
 from admin import config
 
 bot = Bot(token=config.token)
