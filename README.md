@@ -66,7 +66,7 @@ Also start WireGuard Service if it is not already running:
     ```
 7. Update file "mariadb_conn.py" with your data.
 8. Update file "admin_commads.py" with your admin nickname.
-9. Update [wg_config_path](main_stucture/generate_sens_qr.py) with yours in file "generate_send_qr.py".
+9. Update [wg_config_path](main_stucture/generate_send_qr.py) with yours in file "generate_send_qr.py".
 
 
 ## Usage
